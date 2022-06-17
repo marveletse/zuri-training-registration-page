@@ -1,5 +1,6 @@
 html, body {
 				max-width:1440px;
+min-width:375px;
 				background-color:hsl(0, 100%, 74%);
 				background-image:url(bg-intro-desktop.png);
 				font-family:'Poppins',sans-serif;
@@ -101,6 +102,16 @@ input:focus{
 				.container{
 								display:flex;
 								flex-direction:column;
+								justify-content:center;
+								align-items:center;
+								margin:5% auto;
+								width:100%;
+				}
+}
+@media (min-width:375px) {
+				.container{
+								display:flex;
+								flex-direction:row;
 								justify-content:center;
 								align-items:center;
 								margin:5% auto;
